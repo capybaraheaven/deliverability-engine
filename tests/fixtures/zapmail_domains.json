@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dom-sendtemplify",
+    "domain": "sendtemplify.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5001",
+        "email": "noah@sendtemplify.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5002",
+        "email": "noah.l@sendtemplify.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "id": "dom-trytemplify",
+    "domain": "trytemplify.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5003",
+        "email": "noah@trytemplify.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5004",
+        "email": "noah.l@trytemplify.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "id": "dom-templifyhq",
+    "domain": "templifyhq.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5005",
+        "email": "noah@templifyhq.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5006",
+        "email": "noah.l@templifyhq.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "id": "dom-gettemplify",
+    "domain": "gettemplify.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5007",
+        "email": "noah@gettemplify.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5008",
+        "email": "noah.l@gettemplify.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "id": "dom-templifyapp",
+    "domain": "templifyapp.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5009",
+        "email": "noah@templifyapp.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5010",
+        "email": "noah.l@templifyapp.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "id": "dom-templifyio",
+    "domain": "templifyio.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5011",
+        "email": "noah@templifyio.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5012",
+        "email": "noah.l@templifyio.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "id": "dom-withtemplify",
+    "domain": "withtemplify.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5013",
+        "email": "noah@withtemplify.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5014",
+        "email": "noah.l@withtemplify.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "id": "dom-usetemplify",
+    "domain": "usetemplify.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5015",
+        "email": "noah@usetemplify.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5016",
+        "email": "noah.l@usetemplify.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "id": "dom-sendjunkfilms",
+    "domain": "sendjunkfilms.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5017",
+        "email": "noah@sendjunkfilms.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5018",
+        "email": "noah.l@sendjunkfilms.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "id": "dom-tryjunkfilms",
+    "domain": "tryjunkfilms.com",
+    "status": "ACTIVE",
+    "mailboxes": [
+      {
+        "id": "mb-5019",
+        "email": "noah@tryjunkfilms.com",
+        "status": "ACTIVE"
+      },
+      {
+        "id": "mb-5020",
+        "email": "noah.l@tryjunkfilms.com",
+        "status": "ACTIVE"
+      }
+    ]
+  }
+]

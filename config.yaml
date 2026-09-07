@@ -1,0 +1,132 @@
+# Deliverability policy.
+#
+# Every number the engine acts on lives here, so tuning is a text edit and a
+# rerun. Thresholds follow the Growth Engine X operating rules (Eric
+# Nowoslawski) with the EmailBison/Felipe additions where they are stricter or
+# earlier; each is attributed inline so a disagreement is a conversation about
+# the source, not about the code.
+
+smartlead:
+  base_url: https://server.smartlead.ai/api/v1
+  # Campaign ids to police. Empty means every campaign with status ACTIVE.
+  campaigns: []
+  # Days of sending history each health reading is computed over.
+  lookback_days: 14
+
+zapmail:
+  base_url: https://api.zapmail.ai
+  # Zapmail groups domains by workspace, normally one per client. Empty means
+  # every workspace on the account.
+  workspaces: []
+  # Zapmail publishes no complete OpenAPI spec, so the paths it serves live
+  # here rather than being hard-coded. `run.py --check` probes each one and
+  # names any that stopped resolving, which turns a silent no-op rotation into
+  # a startup error.
+  paths:
+    workspaces: /v2/workspaces
+    domains: /v2/domains
+    mailboxes: /v2/mailboxes
+    domain_health: /v2/domains/health-score
+    prewarmed: /v2/domains/prewarmed
+    export: /v2/mailboxes/export
+  # The Smartlead account Zapmail pushes mailboxes into. Zapmail stores the
+  # credential; the engine only names the target app.
+  export_app: SMARTLEAD
+
+mailbox:
+  # GEX: "If any inbox's warm-up reputation falls below 98%, it is
+  # automatically removed from sending." This is the one rule GEX runs fully
+  # unattended, so it is the engine's default bench trigger.
+  reputation_bench: 98
+  # Felipe/EmailBison: the warm-up score dips before reply rate does, making it
+  # the earliest warning available. Watch, do not act.
+  reputation_watch: 99
+
+  # A mailbox that has sent almost nothing has no trustworthy reading. Below
+  # this it is reported as unknown rather than judged on noise.
+  min_warmup_volume: 20
+
+  # Open rate is deliberately absent. GEX stopped tracking opens after
+  # measuring lower reply and positive-reply rates on days open tracking was
+  # on. The engine never enables it.
+
+domain:
+  # GEX weekly rule: a domain below 1% reply rate is done. Felipe puts the
+  # point of no return near 0.4%; 1% is the actionable line.
+  reply_rate_floor: 0.01
+  # GEX weekly rule: "If a domain's bounce rate exceeds 2%, it's removed from
+  # campaigns. High bounces on validated leads almost always indicate
+  # deliverability problems, not data quality issues."
+  bounce_rate_ceiling: 0.02
+  # GEX also ranks relatively: the worst decile goes regardless of whether it
+  # cleared the absolute floor, because a domain only looks acceptable until
+  # you compare it to the rest of the pool.
+  worst_fraction_by_reply: 0.10
+  # Felipe: a domain whose mailboxes average at or below this is degrading;
+  # start warming its replacement now.
+  mean_reputation_swap: 96
+  # Minimum sends before either rate is meaningful for a domain.
+  min_sends_for_rates: 100
+
+  # Listings that end a domain's useful life. Felipe: "once you show up on
+  # Spamhaus or SORBS/SURBL, there is no coming back. Rotate." Smaller
+  # aggregators produce too many false positives to act on unattended.
+  terminal_blacklists:
+    - SURBL multi
+    - SURBL
+    - Spamhaus ZEN
+    - Spamhaus DBL
+    - Spamhaus SBL
+    - SORBS
+    - SpamCop
+  # Missing auth records mean every send is unauthenticated.
+  require_spf: true
+  require_dkim: true
+  require_dmarc: true
+  # Zapmail nameserver/blacklist score, 0-100.
+  score_floor: 70
+
+campaign:
+  # GEX daily rule: "If overall replies drop below 1% (not counting
+  # out-of-office), take action." 0.8% is tolerated in hard markets.
+  reply_rate_floor: 0.01
+  # Saraev's triage starts here: a bounce spike is a list problem. Rotating
+  # fresh domains into a bad list burns the fresh domains too, so above this
+  # the engine stops rotating, flags the campaign, and asks for a human.
+  bounce_rate_circuit_breaker: 0.02
+  min_sends_for_bounce_check: 200
+
+rotation:
+  # A blacklisted domain keeps sending while its replacement warms. The
+  # listing costs roughly 30% of reply rate, not all of it, and pulling it
+  # immediately just removes capacity you have not replaced yet.
+  # Felipe: "keep sending on the listed domains while you buy and warm
+  # replacements, then retire the old ones."
+  retire_delay_days: 14
+
+  # GEX: burnt inboxes are not rehabilitated. "Don't invest any time trying to
+  # save a $12 domain with a $6 inbox." Anything the engine retires is gone
+  # for good; only healthy mailboxes rotated out on schedule come back.
+  rest_days: 21
+
+  # GEX insurance ratio: 1:1 ideal, 1:2 the floor. Below this the engine can
+  # still bench, but it has nothing warm to rotate in, so it says so loudly.
+  min_insurance_ratio: 0.5
+  target_insurance_ratio: 1.0
+
+  # Replacements enter low and climb each clean day. A warm mailbox handed
+  # full volume on day one burns the same way the one it replaced did.
+  ramp_start: 8
+  ramp_step: 6
+  ramp_target: 30
+
+  # Ceiling on how much of a campaign's sending capacity one run may remove.
+  # A run that wants more than this is describing a systemic fault, so it
+  # takes the worst offenders and escalates the rest.
+  max_bench_fraction: 0.34
+  # Never drop a campaign below this many sending mailboxes.
+  min_active_mailboxes: 3
+  # Replacing a domain costs money and warm-up weeks, so a run orders a bounded
+  # number and reports the rest. Terminal faults are ordered before degraded
+  # ones when the cap binds.
+  max_replacements_per_run: 3

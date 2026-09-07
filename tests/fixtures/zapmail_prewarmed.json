@@ -1,0 +1,58 @@
+[
+  {
+    "domain": "northbeamops.com",
+    "warmedWeeks": 8,
+    "mailboxes": [
+      {
+        "id": "pw-northbeamops-1",
+        "email": "noah@northbeamops.com"
+      },
+      {
+        "id": "pw-northbeamops-2",
+        "email": "noah.l@northbeamops.com"
+      }
+    ]
+  },
+  {
+    "domain": "quaystreetco.com",
+    "warmedWeeks": 8,
+    "mailboxes": [
+      {
+        "id": "pw-quaystreetco-1",
+        "email": "noah@quaystreetco.com"
+      },
+      {
+        "id": "pw-quaystreetco-2",
+        "email": "noah.l@quaystreetco.com"
+      }
+    ]
+  },
+  {
+    "domain": "harbourlaneco.com",
+    "warmedWeeks": 8,
+    "mailboxes": [
+      {
+        "id": "pw-harbourlaneco-1",
+        "email": "noah@harbourlaneco.com"
+      },
+      {
+        "id": "pw-harbourlaneco-2",
+        "email": "noah.l@harbourlaneco.com"
+      }
+    ]
+  },
+  {
+    "domain": "eastvaneco.com",
+    "warmedWeeks": 8,
+    "mailboxes": [
+      {
+        "id": "pw-eastvaneco-1",
+        "email": "noah@eastvaneco.com"
+      },
+      {
+        "id": "pw-eastvaneco-2",
+        "email": "noah.l@eastvaneco.com"
+      }
+    ]
+  }
+]

@@ -1,0 +1,236 @@
+{
+  "dom-sendtemplify": {
+    "label": "listed",
+    "score": 62,
+    "dnsRecords": {
+      "domain": "sendtemplify.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": true,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": true,
+      "ipCheckProviders": [],
+      "deepCheckProviders": [
+        "SURBL multi"
+      ]
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  },
+  "dom-trytemplify": {
+    "label": "listed",
+    "score": 62,
+    "dnsRecords": {
+      "domain": "trytemplify.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": true,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": true,
+      "ipCheckProviders": [],
+      "deepCheckProviders": [
+        "SURBL multi"
+      ]
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  },
+  "dom-templifyhq": {
+    "label": "healthy",
+    "score": 100,
+    "dnsRecords": {
+      "domain": "templifyhq.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": true,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": false,
+      "ipCheckProviders": [],
+      "deepCheckProviders": []
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  },
+  "dom-gettemplify": {
+    "label": "healthy",
+    "score": 100,
+    "dnsRecords": {
+      "domain": "gettemplify.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": false,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": false,
+      "ipCheckProviders": [],
+      "deepCheckProviders": []
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  },
+  "dom-templifyapp": {
+    "label": "healthy",
+    "score": 100,
+    "dnsRecords": {
+      "domain": "templifyapp.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": true,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": false,
+      "ipCheckProviders": [],
+      "deepCheckProviders": []
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  },
+  "dom-templifyio": {
+    "label": "healthy",
+    "score": 100,
+    "dnsRecords": {
+      "domain": "templifyio.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": true,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": false,
+      "ipCheckProviders": [],
+      "deepCheckProviders": []
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  },
+  "dom-withtemplify": {
+    "label": "healthy",
+    "score": 100,
+    "dnsRecords": {
+      "domain": "withtemplify.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": true,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": false,
+      "ipCheckProviders": [],
+      "deepCheckProviders": []
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  },
+  "dom-usetemplify": {
+    "label": "healthy",
+    "score": 100,
+    "dnsRecords": {
+      "domain": "usetemplify.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": true,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": false,
+      "ipCheckProviders": [],
+      "deepCheckProviders": []
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  },
+  "dom-sendjunkfilms": {
+    "label": "healthy",
+    "score": 100,
+    "dnsRecords": {
+      "domain": "sendjunkfilms.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": true,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": false,
+      "ipCheckProviders": [],
+      "deepCheckProviders": []
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  },
+  "dom-tryjunkfilms": {
+    "label": "healthy",
+    "score": 100,
+    "dnsRecords": {
+      "domain": "tryjunkfilms.com",
+      "mxRecords": true,
+      "spfRecord": true,
+      "dkimRecords": true,
+      "dmarcPolicy": "reject",
+      "dmarcRecords": true
+    },
+    "blacklistStatus": {
+      "ip": "52.15.49.97",
+      "mxRecord": "smtp.google.com",
+      "isBlacklisted": false,
+      "ipCheckProviders": [],
+      "deepCheckProviders": []
+    },
+    "nameserverScore": {
+      "status": 15
+    },
+    "recommendedActions": []
+  }
+}

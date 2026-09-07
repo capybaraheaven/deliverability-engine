@@ -1,0 +1,102 @@
+{
+  "5001": {
+    "total_sent_count": 210,
+    "total_spam_count": 1,
+    "warmup_reputation": "99%"
+  },
+  "5002": {
+    "total_sent_count": 190,
+    "total_spam_count": 2,
+    "warmup_reputation": "98%"
+  },
+  "5003": {
+    "total_sent_count": 220,
+    "total_spam_count": 1,
+    "warmup_reputation": "99%"
+  },
+  "5004": {
+    "total_sent_count": 205,
+    "total_spam_count": 1,
+    "warmup_reputation": "99%"
+  },
+  "5005": {
+    "total_sent_count": 240,
+    "total_spam_count": 6,
+    "warmup_reputation": "96%"
+  },
+  "5006": {
+    "total_sent_count": 230,
+    "total_spam_count": 7,
+    "warmup_reputation": "95%"
+  },
+  "5007": {
+    "total_sent_count": 200,
+    "total_spam_count": 1,
+    "warmup_reputation": "99%"
+  },
+  "5008": {
+    "total_sent_count": 210,
+    "total_spam_count": 1,
+    "warmup_reputation": "99%"
+  },
+  "5009": {
+    "total_sent_count": 260,
+    "total_spam_count": 14,
+    "warmup_reputation": "91%"
+  },
+  "5010": {
+    "total_sent_count": 215,
+    "total_spam_count": 2,
+    "warmup_reputation": "99%"
+  },
+  "5011": {
+    "total_sent_count": 250,
+    "total_spam_count": 0,
+    "warmup_reputation": "100%"
+  },
+  "5012": {
+    "total_sent_count": 240,
+    "total_spam_count": 1,
+    "warmup_reputation": "99%"
+  },
+  "5013": {
+    "total_sent_count": 230,
+    "total_spam_count": 1,
+    "warmup_reputation": "99%"
+  },
+  "5014": {
+    "total_sent_count": 225,
+    "total_spam_count": 0,
+    "warmup_reputation": "100%"
+  },
+  "5015": {
+    "total_sent_count": 245,
+    "total_spam_count": 0,
+    "warmup_reputation": "100%"
+  },
+  "5016": {
+    "total_sent_count": 235,
+    "total_spam_count": 1,
+    "warmup_reputation": "99%"
+  },
+  "5017": {
+    "total_sent_count": 300,
+    "total_spam_count": 2,
+    "warmup_reputation": "99%"
+  },
+  "5018": {
+    "total_sent_count": 290,
+    "total_spam_count": 1,
+    "warmup_reputation": "100%"
+  },
+  "5019": {
+    "total_sent_count": 310,
+    "total_spam_count": 2,
+    "warmup_reputation": "99%"
+  },
+  "5020": {
+    "total_sent_count": 295,
+    "total_spam_count": 2,
+    "warmup_reputation": "99%"
+  }
+}

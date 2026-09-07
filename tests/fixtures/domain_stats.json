@@ -1,0 +1,52 @@
+{
+  "sendtemplify.com": {
+    "sent": 940,
+    "replies": 5,
+    "bounces": 10
+  },
+  "trytemplify.com": {
+    "sent": 940,
+    "replies": 6,
+    "bounces": 9
+  },
+  "templifyhq.com": {
+    "sent": 940,
+    "replies": 11,
+    "bounces": 11
+  },
+  "gettemplify.com": {
+    "sent": 940,
+    "replies": 13,
+    "bounces": 8
+  },
+  "templifyapp.com": {
+    "sent": 940,
+    "replies": 11,
+    "bounces": 12
+  },
+  "templifyio.com": {
+    "sent": 940,
+    "replies": 17,
+    "bounces": 8
+  },
+  "withtemplify.com": {
+    "sent": 940,
+    "replies": 15,
+    "bounces": 9
+  },
+  "usetemplify.com": {
+    "sent": 940,
+    "replies": 9,
+    "bounces": 10
+  },
+  "sendjunkfilms.com": {
+    "sent": 940,
+    "replies": 20,
+    "bounces": 58
+  },
+  "tryjunkfilms.com": {
+    "sent": 940,
+    "replies": 20,
+    "bounces": 58
+  }
+}

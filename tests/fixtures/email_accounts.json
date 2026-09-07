@@ -1,0 +1,222 @@
+[
+  {
+    "id": 5001,
+    "from_email": "noah@sendtemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5002,
+    "from_email": "noah.l@sendtemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5003,
+    "from_email": "noah@trytemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5004,
+    "from_email": "noah.l@trytemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5005,
+    "from_email": "noah@templifyhq.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5006,
+    "from_email": "noah.l@templifyhq.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5007,
+    "from_email": "noah@gettemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5008,
+    "from_email": "noah.l@gettemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5009,
+    "from_email": "noah@templifyapp.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5010,
+    "from_email": "noah.l@templifyapp.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5011,
+    "from_email": "noah@templifyio.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5012,
+    "from_email": "noah.l@templifyio.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5013,
+    "from_email": "noah@withtemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5014,
+    "from_email": "noah.l@withtemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": false,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5015,
+    "from_email": "noah@usetemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5016,
+    "from_email": "noah.l@usetemplify.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3184368
+    ]
+  },
+  {
+    "id": 5017,
+    "from_email": "noah@sendjunkfilms.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3199001
+    ]
+  },
+  {
+    "id": 5018,
+    "from_email": "noah.l@sendjunkfilms.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3199001
+    ]
+  },
+  {
+    "id": 5019,
+    "from_email": "noah@tryjunkfilms.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3199001
+    ]
+  },
+  {
+    "id": 5020,
+    "from_email": "noah.l@tryjunkfilms.com",
+    "from_name": "Noah Levy",
+    "is_smtp_success": true,
+    "is_imap_success": true,
+    "message_per_day": 15,
+    "campaign_ids": [
+      3199001
+    ]
+  }
+]
